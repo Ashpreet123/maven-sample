@@ -22,8 +22,8 @@
   </dependencies>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <sonar.organization>devopscbabu</sonar.organization>
-    <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+   <sonar.organization>ashpreet123</sonar.organization>
+  <sonar.host.url>https://sonarcloud.io</sonar.host.url>
   </properties>
   <build>
     <pluginManagement>
