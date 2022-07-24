@@ -7,7 +7,7 @@ pipeline {
    stages {
 	stage('Checkout') {
         steps {
-		git 'https://github.com/devopscbabu/maven-sample.git'
+		git ' https://github.com/Ashpreet123/maven-sample.git'
                }
             }
       stage('Build my job') {
