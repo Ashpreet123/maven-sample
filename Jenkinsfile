@@ -18,13 +18,6 @@ pipeline {
       stage('Package you App') {
          steps{
              sh 'mvn clean package'
-               }
-            }
-      stage('Sonar Checks') {
-	 steps{
-	    withSonarQubeEnv(installationName: 'Sonarscanner', credentialsId: 'SonarCloud') {
-    	    sh 'mvn clean package sonar:sonar'
-     		}
   	 }
       } 
    }         
